@@ -1,7 +1,7 @@
 # FinSetu
 
-> **AI-Powered Personal Finance & Expense Tracker**  
-> Track income, manage expenses, set budgets, and get personalized financial insights powered by AI.
+**AI-Powered Personal Finance & Expense Tracker**  
+Track income, manage expenses, set budgets, and get personalized financial insights powered by AI.
 
 ---
 
@@ -13,11 +13,6 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -48,9 +43,9 @@ With income and expense tracking, budgeting tools, and personalized insights pow
 | Frontend      | [Next.js](https://nextjs.org)   |
 | Styling       | [Tailwind CSS](https://tailwindcss.com) |
 | Authentication| [Clerk](https://clerk.com)      |
-| Database      | [PostgreSQL](https://www.postgresql.org) (via Neon) |
+| Database      | [PostgreSQL](https://www.postgresql.org) |
 | AI / API      | [Google Gemini](https://ai.google.dev/) |
-| Deployment    | (add Vercel/Netlify/Railway/etc. if applicable) |
+| Deployment    | [Vercel](https://vercel.com/) |
 
 ---
 
@@ -59,8 +54,8 @@ With income and expense tracking, budgeting tools, and personalized insights pow
 ### Prerequisites
 
 - Node.js (v18+ recommended)  
-- npm or yarn  
-- PostgreSQL database (FinSetu uses [Neon](https://neon.tech))  
+- npm   
+- PostgreSQL database 
 - Clerk account for authentication  
 - Gemini API key  
 
@@ -75,11 +70,19 @@ With income and expense tracking, budgeting tools, and personalized insights pow
    cd FinSetu
 2. Install dependencies:
 
-  npm install
-  # or
-  yarn install
+        npm install
+   
 3. Create a .env file in the project root
 4 Run the development server:
 
-    npm run dev
+        npm run dev
+
+## Contact
+
+👤 Sreemanth Palakurthi
+
+
+- GitHub: [Sreemanth-21](https://github.com/Sreemanth-21)  
+- Email: [sreemanth1234@gmail.com](mailto:sreemanth1234@gmail.com)  
+
 
